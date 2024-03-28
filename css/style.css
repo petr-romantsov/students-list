@@ -1,0 +1,31 @@
+html { 
+    box-sizing: border-box;
+}
+
+*, 
+*::before,
+*::after { 
+    box-sizing: inherit;
+}
+
+.error { 
+    border-color: red;
+}
+
+.table__th { 
+    cursor: pointer;
+    transition: background-color .2s ease-in-out;
+}
+
+.sort-icon { 
+    width: 15px;
+    height: 15px;
+}
+
+.table__th:hover { 
+    background-color: rgb(242, 242, 242);
+}
+
+.table__th:active { 
+    background-color: rgb(219, 219, 219);
+}
